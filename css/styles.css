@@ -1,0 +1,314 @@
+body {
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+:root {
+    --primary-text-color: #434455;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+ul {
+    padding-left: 0;
+}
+.container {
+    width:1158px;
+    margin: 0 auto;
+}
+.header-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.top {
+    display:flex;
+    padding-left: 156px;
+    border-bottom: 1px solid #e7e9fc
+}
+.header-link {
+    display: flex;
+    align-items: center;
+}
+.list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    list-style: none;
+} 
+.logo-part {
+    color: #2E2F42;
+}
+.logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4D5AE5;
+}
+.list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+}
+.list-link:hover,
+:focus {
+    color: #404bbf
+}
+.link {
+    text-decoration: none;
+}
+.main-address {
+    font-style: normal;
+    margin-left: 100px;
+}
+.header-logo {
+    margin-right: 76px;
+}
+.header-main-list{
+    display: flex;
+    gap: 40px;
+}
+.header-contact {
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+.contact-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf
+}
+.main-box {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+.main-box-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.main-box-btn {
+    background: #4D5AE5;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    font-family: 'Roboto' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.main-box-btn:hover,
+.main-box-btn:focus {
+    background-color: #404BBF;
+}
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.list-about {
+    display: flex;
+    gap: 24px;
+}
+.list-about-item {
+    width: calc((100% - 72px) / 4);
+}
+.about-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.benefits {
+    padding-bottom: 120px;
+}
+.benefits-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.list-benefits {
+    display: flex;
+    gap: 24px;
+}
+.list-benefits-item {
+    width: calc((100% - 48px) / 3);
+}
+.our-team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.our-team-head {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+.list-our-team {
+    display: flex;
+    gap: 24px;
+}
+.our-team-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+img {
+    display: block;
+}
+.our-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2; 
+    text-align: center;
+    letter-spacing: 0.02em; 
+    color: #2E2F42;   
+    text-align: center;
+    margin-bottom: 8px;
+}
+.our-team-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align:center;
+}
+.our-team-workers {
+    padding: 32px 16px;
+}
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+.footer-logo-part {
+    color: #f4f4fd;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+.nav-btn {
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px
+}
+.nav-btn:hover,
+.nav-btn:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+.prt-main-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.container-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio-container{
+    padding: 0 15px;
+}
+.prt-nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.prt-main {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.prt-main-item {
+    width: calc((100% - 48px) / 3);
+}
+.prt-main-links {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
