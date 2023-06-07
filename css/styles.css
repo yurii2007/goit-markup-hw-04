@@ -36,10 +36,13 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
-.top {
+.header {
     display:flex;
     padding-left: 156px;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-link {
     display: flex;
@@ -110,7 +113,11 @@ ul {
 .main-box {
     background-color: #2E2F42;
     padding: 188px 0;
-    background: url(../images/hero-bg.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
 }
 .main-box-title {
     font-weight: 700;
@@ -164,15 +171,15 @@ ul {
 .list-about-item {
     width: calc((100% - 72px) / 4);
 }
-.list-about-icon {
-   
-    border-radius: 4px;
-    width: 64px;
-    height: 64px;
-}
 .about-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F4F4FD;
     padding: 24px 100px;
+    border-radius: 4px;
+    height: 112px;
+    margin-bottom: 8px;
 }
 .about-description {
     font-weight: 400;
@@ -217,7 +224,12 @@ ul {
 }
 .social-links {
     display: flex;
+    justify-content: center;
     gap: 24px;
+}
+.social-links-item {
+    width: 40px;
+    height: 40px;
 }
 .social-icon {
     width: 40px;
