@@ -115,7 +115,7 @@ ul {
 .main-box {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -237,7 +237,7 @@ ul {
     padding: 8px 16px 32px;
     gap: 24px;
 }
-.social-links-item {
+.social-links-items {
     width: 40px;
     height: 40px;
 }
@@ -305,6 +305,11 @@ ul {
     margin: 0 auto;
     justify-content: center;
 }
+.client-list-box {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
 .client-links {
     width: 100%;
     height: 100%;
@@ -316,7 +321,7 @@ ul {
     color: #8e8f99;
 }
 .client-links:hover,
-.client-links::after {
+.client-links:focus {
     border-color: #404BBF;
     color: #404bbf;
 }
@@ -366,6 +371,9 @@ ul {
     color: #F4F4FD;
     max-width: 264px;
 }
+
+/* PORTFOLIO */
+
 .nav-btn {
     background-color: #F4F4FD;
     font-weight: 500;
@@ -393,6 +401,14 @@ ul {
     letter-spacing: 0.02em;
     color: var(--title-color);
     margin-bottom: 8px;
+}
+
+.main-list-item {
+    display: block;
+}
+.main-list-item:hover,
+.main-list-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .container-description {
     font-weight: 400;
