@@ -297,6 +297,7 @@ ul {
     text-align: center;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
+    margin-top: 0;
     text-transform: capitalize;
 }
 
@@ -355,6 +356,7 @@ ul {
     line-height:1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 .social-links-footer {
     display: flex;
