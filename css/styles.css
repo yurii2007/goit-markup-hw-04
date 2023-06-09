@@ -249,6 +249,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 12px;
 }
 .social-link-item:hover,
 .social-link-item:focus {
