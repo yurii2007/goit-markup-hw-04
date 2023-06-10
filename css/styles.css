@@ -72,12 +72,12 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
      0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 24px 0;
 }
 .header-link {
     display: flex;
     align-items: center;
     margin-left: 156px;
-    padding: 24px 0px;
     margin-right: auto;
 }
 .list {
@@ -106,7 +106,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding: 24px 0;
 }
 .list-link:hover,
 :focus {
@@ -117,7 +116,6 @@ img {
 }
 .main-address {
     font-style: normal;
-    padding: 24px 0;
 }
 .header-logo {
     margin-right: 76px;
@@ -150,6 +148,7 @@ img {
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    margin: 0 auto;
 }
 .main-box-title {
     font-weight: 700;
