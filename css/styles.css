@@ -77,7 +77,6 @@ img {
 .header-link {
     display: flex;
     align-items: center;
-    margin-left: 156px;
     margin-right: auto;
 }
 .list {
@@ -263,7 +262,6 @@ img {
 .social-links {
     display: flex;
     justify-content: center;
-    padding: 8px 16px 32px;
     gap: 24px;
 }
 .social-links-items {
@@ -303,6 +301,7 @@ img {
     margin-bottom: 8px;
 }
 .our-team-description {
+    margin-bottom: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
